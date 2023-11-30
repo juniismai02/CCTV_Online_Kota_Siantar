@@ -22,25 +22,35 @@ Periode 1
    - rtsp://admin:Kominfo456@103.143.154.5:556/h264
 
 Periode 2
+- Akun IPCAMLIVE 3
+    - Username : diskominfosiantarp1
+    - Password  : @yamjago9988!@
+    - Gmail : diskominfosiantarp1@gmail.com
 
 7.  6564119a424f7-CCTV-Terminal
    - rtsp://admin:Kominfo456@36.94.155.141:3790//h264 
 
-8. 6426f63a1a867-JL-MERDEKA
-   - rtsp://admin:Kominfo456@103.143.154.5:557/h264  
+8. 6565c4e0e0749-Simpang Farel Pasaribu-Tanah Jawa
+   - rtsp://admin:Kominfo456@36.94.3.13:3792/h264  
 
-9.  6426f683ba89d-JL-MH.SITORUS
-   - rtsp://admin:Kominfo456@103.143.154.5:556/h264
+9.  6565c54e11cce-Simpang Farel Pasaribu-Kota
+   - rtsp://admin:Kominfo456@36.94.3.13:3793//h264
 
 
-10.  6564119a424f7-CCTV-Terminal
-   - rtsp://admin:Kominfo456@36.94.155.141:3790//h264 
 
-11. 6426f63a1a867-JL-MERDEKA
-   - rtsp://admin:Kominfo456@103.143.154.5:557/h264
+- Akun IPCAMLIVE 3
+    - Username : diskominfosiantarp3
+    - Password  : @yamjago9988!@
+        - Gmail : diskominfosiantarp3@gmail.com
 
-12. 6426f683ba89d-JL-MH.SITORUS
-   - rtsp://admin:Kominfo456@103.143.154.5:556/h264
+10.  66566ff21501f0-Ramayana
+   - rtsp://admin:Kominfo456@36.91.37.149:3794//h264
+
+11. 6567fc5ebd8f0-Simpang BDB-Medan
+   - rtsp://admin:Kominfo456@36.93.11.34:3795//h264
+
+12. Simpang BDB-Kota
+   - rtsp://admin:Kominfo456@36.93.11.34:3796//h264
 
 
 
