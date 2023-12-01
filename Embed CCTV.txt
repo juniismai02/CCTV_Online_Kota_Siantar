@@ -38,7 +38,7 @@ Periode 2
 
 
 
-- Akun IPCAMLIVE 3
+- Akun IPCAMLIVE 2
     - Username : diskominfosiantarp3
     - Password  : @yamjago9988!@
         - Gmail : diskominfosiantarp3@gmail.com
@@ -51,6 +51,21 @@ Periode 2
 
 12. Simpang BDB-Kota
    - rtsp://admin:Kominfo456@36.93.11.34:3796//h264
+
+
+- Akun IPCAMLIVE 3
+    - Username : diskominfosiantarp2
+    - Password  : @yamjago9988!@
+        - Gmail : diskominfosiantarp2@gmail.com
+
+13.  Simpang Jalan Bali
+   - rtsp://admin:Kominfo456@36.92.247.201:3797//h264
+
+14. Simpang Jalan Lorong 20
+   - rtsp://admin:Kominfo456@36.94.22.2:3799//h264
+
+15. Simpang Lorong 20-Jalan Bali
+   - rtsp://admin:Kominfo456@36.94.22.2:3798//h264
 
 
 
@@ -71,14 +86,18 @@ Premium
     - Password  : @yamjago9988!@
 
 Free
-- Akun IPCAMLIVE 3
+- Akun IPCAMLIVE 1
     - Username : diskominfosiantarp1
     - Password  : @yamjago9988!@
     - Gmail : diskominfosiantarp1@gmail.com
-- Akun IPCAMLIVE 3
+- Akun IPCAMLIVE 2
     - Username : diskominfosiantarp3
     - Password  : @yamjago9988!@
         - Gmail : diskominfosiantarp3@gmail.com
+- Akun IPCAMLIVE 3
+    - Username : diskominfosiantarp2
+    - Password  : @yamjago9988!@
+        - Gmail : diskominfosiantarp2@gmail.com
 
 
 

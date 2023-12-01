@@ -20,13 +20,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css"
     />
-
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-  integrity="sha384-GLhlTQ8iFZ1PZZL+8+5F9Kv98FXiHAq0CWavP2me9uqrdFjF2dRTt8+pR6L4N2x"
-  crossorigin=""
-/>
     <link rel="stylesheet" href="assets/css/mobile.css" />
     <title>Selamat Datang Pada Halaman CCTV Online Kota Pematang Siantar</title>
   </head>
@@ -129,8 +122,8 @@
                     </div>
                     <div class="banner-btn">
                       <a href="#cctv" class="contact-btn">Lihat CCTV</a>
-                      <a href="#peta" class="contact-btn contact-banner-btn"
-                        >Peta CCTV</a
+                      <a href="#wifi" class="contact-btn contact-banner-btn"
+                        >WIFI PUBLIC</a
                       >
                     </div>
                   </div>
@@ -154,45 +147,12 @@
     </div>
     <!---header-and-banner-section-->
 
-    <!--lokasi_map-section-->
-    <section id="peta">
-      <div class="form-main-con dots-left-img">
-        <div class="container overlay-content">
-          <div class="form-title-con text-center wow slideInLeft">
-            <h5>PELINTAS - Peta Titik Lokasi</h5>
-
-            <h2>
-              <img
-                src="assets/image/icon-cctv.svg"
-                alt="WIFI"
-                class="icon"
-                height="80"
-                width="80"
-              />CCTV
-            </h2>
-              <!-- Map Lokasi CCTV -->
-              <div class="Pricing-box-con" class="col-12">
-                <div  style="overflow: hidden; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);">
-                  <div id="map" class="Pricing-box-img text-center" style="height: 600px;"></div>
-                </div>
-              </div>
-              
-             <!-- Map Lokasi CCTV -->
-            
-            <!-- CCTV 9 Close -->
-          </div>
-        </div>
-      </div>
-      
-    </section>
-     <!--lokasi_map-section-->
-
     <!-- Pricing-section -->
     <section id="cctv">
       <div class="Pricing-con dots-left-img">
         <div class="container overlay-content">
           <div class="Pricing-title text-center">
-            <h5>PELINTAS - Live Video Streaming</h5>
+            <h5>PELINTAS (Pemantauan Lalu Lintas Kota Pematang Siantar)</h5>
             <h2>
               <img
                 src="assets/image/icon-cctv.svg"
@@ -445,6 +405,7 @@
 
 
 
+
               <!-- Simpang Jalan Bali, Simpang Jalan Lorong 20, Simpang Lorong 20-Jalan Bali -->
           <br />
           <div class="row wow fadeInUp">
@@ -527,7 +488,6 @@
         <br />
 
         <!-- Simpang Jalan Bali, Simpang Jalan Lorong 20, Simpang Lorong 20-Jalan Bali -->
-
 
 
 
@@ -620,12 +580,6 @@
     </section>
 
     <!-- Pricing-section -->
-
-    
-
-    
-
-
     <!--form-section-->
     <section id="wifi">
       <div class="form-main-con dots-left-img">
@@ -647,28 +601,18 @@
       </div>
     </section>
     <!--form-section-->
-
-    
     <!-- Map-section -->
-   <div class="Map-main-con">
-  <div id="mapid" class="Map-main-inner-con wow slideInRight">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.867307034722!2d99.05556131426916!3d2.961871697878284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304c736c82f4ef9d%3A0xb1b8082a2da55a34!2sPematang%20Siantar%2C%20Kota%20Pematang%20Siantar%2C%20Sumatera%20Utara!5e0!3m2!1sen!2sid!4v1662765432346!5m2!1sen!2sid"
-      title="Pematang Siantar, Sumatera Utara"
-      aria-label="Pematang Siantar, Sumatera Utara"
-      class="w-100 border-0 overflow-hidden m-0"
-      height="450"
-      frameborder="0"
-      style="border:0"
-      allowfullscreen=""
-      loading="lazy"
-    ></iframe>
-  </div>
-</div>
-
+    <div class="Map-main-con">
+      <div id="mapid" class="Map-main-inner-con wow slideInRight">
+        <iframe
+          src="https://maps.google.com/maps?q=Level%201%2C%20121%20King%20Street%20Melbourne%2C%203000%2C%20Australia&amp;t=m&amp;z=20&amp;output=embed&amp;iwloc=near"
+          title="Level 1, 121 King Street Melbourne, 3000, Australia"
+          aria-label="Level 1, 121 King Street Melbourne, 3000, Australia"
+          class="w-100 border-0 overflow-hidden m-0"
+        ></iframe>
+      </div>
+    </div>
     <!-- Map-section -->
-
-
     <!-- <div id="mapid" class="Map-main-con"></div> -->
     <!-- Map-section -->
     <!-- Map-section -->
@@ -890,123 +834,10 @@
       new WOW().init();
     </script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script
-  src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-  integrity="sha384-j8FXNrf3IZhs6S3z1YUn5X6j3cvDGLr8U9CEjKA1fU5c1Jt2L3qB1SNkWB2PuD0E"
-  crossorigin=""
-></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/custom-script.js"></script>
-
- <!-- Map Lokasi CCTV -->
- <style>
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  #map {
-    height: 100vh;
-  }
-
-  .location-card {
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    background-color: #091650; /* Updated color */
-    color: #ecf0f1;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .location-card h5 {
-    color: #ffffff; /* White text color */
-  }
-
-  .popup-video {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .popup-video:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-
-  .leaflet-popup-content-wrapper {
-    background: #2c3e50; /* Popup background color */
-    border-radius: 10px;
-  }
-
-  .leaflet-popup-content {
-    color: #ecf0f1;
-  }
-
-  .leaflet-popup-tip-container {
-    display: none; /* Remove the default leaflet tip */
-  }
-</style>
-
-
-<script>
-  var map = L.map('map').setView([2.961871697878284, 99.05556131426916], 13.5);
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
-  }).addTo(map);
-
-  var cctvLocations = [
-    { coordinates: [2.9750954176172004, 99.07893578725114], title: 'SIMPANG RAMBUNG MERAH', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=64f544f07c393' },
-    { coordinates: [2.932170592306478, 99.04633777879322], title: 'SIMPANG DUA', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=64f544a025441' },
-    { coordinates: [2.965964403938287, 99.08750054258158], title: 'SIMPANG SAMBO', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=64f544483782b' },
-    { coordinates: [2.95625457453889, 99.0604453798329], title: 'JL.SUDIRMAN / SIMPANG BRI', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=64f55a48f34dc' },
-    { coordinates: [2.956823561971628, 99.0619108184885], title: 'JL.MERDEKA / DEPAN BALAI KOTA', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=64f559a324bf2', status: 'perbaikan' },
-    { coordinates: [2.9553807396257055, 99.05926171465315], title: 'JL.MH. SITORUS', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=64f559f37c744', status: 'perbaikan' },
-    { coordinates: [2.960422383501374, 99.07375492791333], title: 'RAMAYANA', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=6566ff21501f0'},
-    { coordinates: [2.967284642090242, 99.07592753135022], title: 'SIMPANG BDB-MEDAN', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=6567fc5ebd8f0'},
-    { coordinates: [2.9673612204219095, 99.07594375238496], title: 'SIMPANG BDB-KOTA', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=6567fcab1d408'},
-    { coordinates: [2.969927463833477, 99.05394486073412], title: 'SIMPANG JALAN BALI', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=656860d6a55e6'},
-    { coordinates: [2.9705988772050684, 99.06737251554235], title: 'SIMPANG JALAN LORONG 20', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=6568604287cd6'},
-    { coordinates: [2.970747382456344, 99.06750847453861], title: 'SIMPANG JALAN LORONG 20-JALAN BALI', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=656860867f049'},
-    { coordinates: [2.970751438793809, 99.07031021641029], title: 'TERMINAL PARLUASAN', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=6564119a424f7'},
-    { coordinates: [2.9444543355616837, 99.06965546822505], title: 'SIMPANG FAREL PASARIBU-KOTA', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=6565c54e11cce'},
-    { coordinates: [2.9445675093124546, 99.06966820876384], title: 'SIMPANG FAREL PASARIBU-TANAH JAWA', streamURL: 'https://g3.ipcamlive.com/player/player.php?alias=6565c4e0e0749'},
-  ];
-
-  cctvLocations.forEach(function (location) {
-    var customIcon = L.icon({
-      iconUrl: 'assets/image/icon_cctv.png',
-      iconSize: [32, 45],
-      iconAnchor: [16, 32],
-      popupAnchor: [0, -32],
-    });
-
-    var marker = L.marker(location.coordinates, { icon: customIcon }).addTo(map);
-
-    var popupContent = '<div class="location-card">' +
-      '<h5>' + location.title + '</h5>';
-
-    if (location.status === 'perbaikan') {
-      popupContent += '<img src="assets/image/perbaikan.png" alt="CCTV Under Maintenance">';
-    } else {
-      popupContent += '<iframe class="popup-video" src="' + location.streamURL + '" frameborder="0" allowfullscreen></iframe>';
-    }
-
-    popupContent += '</div>';
-
-    marker.bindPopup(popupContent);
-  });
-</script>
-
-
-<!-- Map Lokasi CCTV -->
-
-
+	  
 	  
 	  <!-- Default Statcounter code for Cctv http://Cctv.pematangsiantar.go.id -->
 <script type="text/javascript">
