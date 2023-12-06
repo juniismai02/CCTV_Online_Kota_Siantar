@@ -1,0 +1,117 @@
+AKun IpcamLive 2024
+
+Akun IPCAMLIVE DISKOMINFO 2023
+- Akun Gmail 1
+    - Username : psiantardiskominfo@gmail.com	
+    - Password  : @yamjago9988!@
+- Akun Gmail 3
+    - Username : diskominfokotapematangsiantar@gmail.com 	
+    - Password  : Bgtlo12bgtlo12
+
+
+
+- Akun Gmail 2
+    - Username : diskominfosiantar0@gmail.com	
+    - Password  : @yamjago9988!@
+
+
+- Akun IPCAMLIVE 1
+        - Username : diskominfosiantar1
+        - Password  : @yamjago9988!@
+
+
+Total Harga License Camera : 22.971.585.90
+
+
+- Akun IPCAMLIVE 1
+        - Username : psiantardiskominfo
+        - Password  : @yamjago9988!@
+
+Total License / 3 bulan = 873.00 USD / Rp. 13.512.512,25 
+
+
+1. 63a46f24d0c25-SIMPANG-SAMBO - Ulti ()
+   - rtsp://stream:Stream123@111302204211.ip-dynamic.com/h264  
+
+2. 63a4712f09d09-SIMPANG-DUA - Ulti ()
+   - rtsp://admin:Kominfo456@111301134682.ip-dynamic.com:554/h264  
+
+3. 63a5320ed7dc7-SIMPANGRB-MERAH - Ulti()
+   -  rtsp://stream:Stream123@111301134681.ip-dynamic.com/h264
+
+4.  6564119a424f7-CCTV-Terminal Polsek - ()
+   - rtsp://admin:Kominfo456@36.94.155.141:3790//h264 
+
+5. 6565c4e0e0749-Simpang Farel Pasaribu-Tanah Jawa - Ulti ()
+   - rtsp://admin:Kominfo456@36.94.3.13:3792/h264   
+
+6.  6565c54e11cce-Simpang Farel Pasaribu-Kota -()-
+   - rtsp://admin:Kominfo456@36.94.3.13:3793//h264 - Profesional
+
+7.  66566ff21501f0-Ramayana - Ulti () -
+   - rtsp://admin:Kominfo456@36.91.37.149:3794//h264 
+
+8. 6567fc5ebd8f0-Simpang BDB-Medan - ()
+   - rtsp://admin:Kominfo456@36.93.11.34:3795//h264
+
+9. Simpang BDB-Kota - ()
+   - rtsp://admin:Kominfo456@36.93.11.34:3796//h264 - Profesional
+
+10.  Simpang Jalan Bali -()
+   - rtsp://admin:Kominfo456@36.92.247.201:3797//h264
+
+11. Simpang Jalan Lorong 20 -()
+   - rtsp://admin:Kominfo456@36.94.22.2:3799//h264
+
+12. Simpang Lorong 20-Jalan Bali - Bandwidth Ketinggian ()
+   - rtsp://admin:Kominfo456@36.94.22.2:3798//h264 - Profesional
+
+
+
+
+
+
+- Akun IPCAMLIVE 2
+    - Username : diskominfosiantar0
+    - Password  : @yamjago9988!@
+
+Total License / 3 bulan = 610.50 USD / Rp. 9,459,073.65 
+
+
+1. 6426f5a267c87-SIMPANG-BRI -()
+   - rtsp://admin:Admin123@103.143.154.5:554/h264
+
+2. 6426f63a1a867-JL-MERDEKA -()
+   - rtsp://admin:Kominfo456@103.143.154.5:557/h264 
+
+3. 6426f683ba89d-JL-MH.SITORUS -()
+   - rtsp://admin:Kominfo456@103.143.154.5:556/h264 - Profesional
+
+4. Simarimbun-Siantar -()
+rtsp://admin:Kominfo456@36.93.64.18:3801//h264
+
+5. Simarimbun-Parapat-sidamanik - Ulti () -
+rtsp://admin:Kominfo456@36.93.64.18:3802//h264 
+
+6. Jembatan Sigagak-Siantar - () -
+rtsp://admin:Kominfo456@36.92.247.65:3800//h264
+
+7. Simapang 4 Bundaran - Ulti () -
+rtsp://admin:Kominfo456@36.94.30.7:3803//h264 
+
+ 8.Simpang 4-Jalan Gereja - ()
+rtsp://admin:Kominfo456@36.94.30.7:3803//h264
+
+9. Jalan Sutomo-Sutomo Squere - ()
+rtsp://admin:Kominfo456@36.93.47.10:3805//h264
+
+10. jalan Sutomo-Polres Pematang Siantar - Bandwith Tinggi ()-
+rtsp://admin:Kominfo456@36.93.47.10:3806//h264 - Profesional
+
+Belum Di Settings
+
+11. Jembatan Sigagak-Medan - Ulti () -
+    - rtsp://admin:Kominfo456@36.92.247.65:3800//h264 
+
+12. 6564119a424f7-CCTV-Terminal Parluasan - ()
+	- rtsp://admin:Kominfo456@36.94.155.141:3790//h264 
