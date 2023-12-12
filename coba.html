@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Struktur Organisasi</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .org-chart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        position: relative;
+        background-color: #fff;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        justify-content: center;
+        align-items: center;
+      }
+
+      .popup img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="org-chart">
+      <div class="card" onclick="showPopup('John Doe', 'john.jpg')">
+        <h3>John Doe</h3>
+        <p>CEO</p>
+      </div>
+
+      <div class="card" onclick="showPopup('Jane Doe', 'jane.jpg')">
+        <h3>Jane Doe</h3>
+        <p>CTO</p>
+      </div>
+
+      <!-- Add more cards as needed -->
+
+      <div class="popup" id="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <img src="" alt="Popup Image" id="popup-img" />
+      </div>
+    </div>
+
+    <script>
+      function showPopup(name, image) {
+        document.getElementById('popup-img').src = image;
+        document.getElementById('popup').style.display = 'flex';
+      }
+
+      function closePopup() {
+        document.getElementById('popup').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
